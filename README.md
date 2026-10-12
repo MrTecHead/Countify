@@ -1,4 +1,8 @@
-<img width="256" height="256" alt="ic_launcher-playstore" src="https://github.com/user-attachments/assets/6c9e08f8-1a4e-42fd-bab2-2d490c483b15" />
+<div align="center">
+
+<img width="256" height="256" alt="ic_launcher-playstore" src="https://raw.githubusercontent.com/MrTecHead/Countify/refs/heads/main/icon.png" />
+
+<div>
 
 # Countify
 Countify is an ad-free countdown app designed for android phones to allow for a simple yet effective countdown without any paid or 'pro' features.
