@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="24dp">
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:background="?android:attr/textColorSecondary" />
+
+    <TextView
+        android:id="@+id/tv_counter_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Counter Options"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_edit"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="start|center_vertical"
+        android:text="Edit"
+        android:textSize="15sp"
+        app:icon="@android:drawable/ic_menu_edit" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_notification_options"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="start|center_vertical"
+        android:text="Notification options"
+        android:textSize="15sp"
+        app:icon="@android:drawable/ic_popup_reminder" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_add_widget"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="start|center_vertical"
+        android:text="Add widget to Home Screen"
+        android:textSize="15sp"
+        app:icon="@android:drawable/ic_menu_add" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_delete"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:text="Delete"
+        android:textColor="#FF3B30"
+        android:textSize="15sp"
+        app:icon="@android:drawable/ic_menu_delete"
+        app:iconTint="#FF3B30"
+        app:strokeColor="#FF3B30" />
+
+</LinearLayout>

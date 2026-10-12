@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_icon"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="22dp"
+        app:cardElevation="2dp"
+        app:strokeWidth="2dp">
+
+        <ImageView
+            android:id="@+id/iv_option_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:contentDescription="Icon Choice"
+            android:src="@drawable/ic_counter_calendar" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>
