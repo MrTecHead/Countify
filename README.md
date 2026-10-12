@@ -10,4 +10,4 @@ Countify is an ad-free countdown app designed for android phones to allow for a 
 This app is open sorce and i encourage you to fork off this to add whatever you like. All i ask is that you mention me by my github username in the README.md file.
 
 Installation
-To install Countify, download the latest version from the [releases page](https://github.com/MrTecHead/Bus-Spotting/releases) and open the APK file. You may be prompted to manage permissions in your settings app to allow apps from unknown sources.
+To install Countify, download the latest version from the [releases page](https://github.com/MrTecHead/Countify/releases) and open the APK file. You may be prompted to manage permissions in your settings app to allow apps from unknown sources.
